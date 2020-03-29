@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { MaterialModule } from './material/material.module';
 import { CoreModule } from './core/core.module';
+import { AuthenticationModule } from './authentication/authentication.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CoreModule } from './core/core.module';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MaterialModule,
-    CoreModule
+    CoreModule,
+    AuthenticationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
